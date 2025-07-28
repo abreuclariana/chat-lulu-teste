@@ -15,7 +15,7 @@ app.post('/chat', async (req, res) => {
   }
 
   // Resposta fixa simulando a Lulu
-  res.json({ reply: "Hello! I'm Lulu. How can I help you today? 😊" });
+  res.json({ reply: "Hello! I'm Lulu. How can I help you today? 😊" });  
 });
 
 app.listen(PORT, () => {
